@@ -79,7 +79,7 @@ else:
     
 from sklearn.naive_bayes import GaussianNB
 
-nb = DecisionTreeClassifier()
+nb = GaussianNB()
 nb.fit(X,y)
 
 nome = 'Felipe'
